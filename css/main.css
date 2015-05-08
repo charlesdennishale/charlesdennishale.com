@@ -1,0 +1,97 @@
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400,400italic,700);
+
+body {
+	font-family: Vollkorn, 'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+	font-size: 16px;
+	line-height: 1.5em;
+	margin: 80px 60px;
+	color: #333;
+	background: #fafafa;
+}
+em { font-style: italic; }
+strong { font-weight: bold; }
+p {	padding-bottom: 20px; }
+h1, h2, h3, h4 { font-weight: normal; }
+
+.underline { text-decoration: underline; }
+
+a,a:link,a:active,a:visited { color: #2e9589; text-decoration: none; border-bottom: 1px solid #fafafa;}
+a:hover { text-decoration: none; border-bottom: 1px solid #ccc;}
+
+#content { width: 880px; margin: 0 auto;}
+
+header {margin-bottom: 60px;}
+#profile {overflow: auto;}
+#profile h1, h2 {font-style: italic;}
+#profile h1 {font-style: italic;font-size: 36px;line-height: 1em;}
+#profile h2 {font-size: 21px;margin-top: 1em;}
+#profile h3 {text-transform: uppercase; font-size: 12px; letter-spacing: 0.1em;margin-bottom: 1em;color: #888;}
+#profile img {width:410px;display: block;border-radius:4px;margin-bottom:2em;}
+#profile ul {margin-bottom: 1.5em;}
+#profile ul li {list-style-type: square;margin-left: 1em;padding-left: 0.5em;}
+#profile div {width: 410px; float: left;}
+#profile div.bio {padding-right: 60px;}
+#profile .consult {font-size: 21px;line-height: 1.5em;}
+.email {padding-left: 26px;background: url('../images/mail.png') no-repeat; background-position: 0px 5px;}
+
+#books {clear: both;padding-top: 50px;border-top: 1px solid #ccc;margin-top: 30px;}
+#books h3 {
+	font-style: italic;
+	font-size: 32px;
+	margin: 0 auto;
+	margin-bottom: 0.25em;
+	background: url('../images/book.png') no-repeat 0 5px;
+	background-size: 24px;
+	padding-left: 40px;
+	line-height: 1em;
+	clear: both;
+	}
+
+#books h4 {margin-top: 30px;font-size: 21px;font-style: italic;}
+#books p {color: #888; margin-top: 1em;}
+#books ul {line-height: 2em;color:#888;}
+#books span {text-transform: uppercase; font-size: 12px; letter-spacing: 0.1em;}
+
+.book { width: 410px;margin-bottom: 20px;float: left;}
+.atl {padding-right: 60px;}
+.eets {width: 100%;}
+.eets ul {width:410px;padding-right: 60px;float: left;}
+.eets ul:last-child {padding: 0;}
+
+.quote {
+	clear: both;
+	padding-top: 60px;
+	text-align: center; 
+	color: #aaa;
+}
+
+#footer {
+	margin-top: 30px;
+	clear: both;
+	text-align: center;
+	text-transform: uppercase; font-size: 13px; letter-spacing: 0.1em;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	body {margin: 2em;font-size: 14px;-webkit-text-size-adjust: none;}
+	#profile h1, #profile h2 {text-align: center;}
+	#profile h1 {font-size: 24px;}
+	#profile h2 {font-size: 16px;margin-top: 0.5em;}
+	.bio {padding-bottom: 1em;}
+	header {margin-bottom: 2em;}
+ 	#content {width:100%;}
+ 	#profile div, .book, .eets ul {width: 100%;}
+ 	#profile div, .book {float: none;}
+ 	#profile img {max-width:100%;}
+ 	#profile {overflow: visible;}
+ 	#books {margin-top: 2em;padding-top: 2em;}
+ 	#books h3 {
+	font-size: 24px;
+	background-position:0 1px;
+	background-size: 22px;
+	padding-left: 36px;
+	}
+	#books h4 {margin-top: 30px;font-size: 16px;font-style: italic;}
+	.book {margin-bottom: 1em;}
+	.quote {padding-top: 2em;}
+}

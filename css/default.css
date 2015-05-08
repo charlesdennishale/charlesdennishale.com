@@ -1,0 +1,128 @@
+BODY {
+background: white;
+color: black;
+font: 12px verdana;
+}
+
+
+A:link, A:active, A:visited {
+text-decoration: none;
+font: 12px verdana;
+color: #0033FF;
+}
+
+A:hover {
+text-decoration: none;
+font: 12px verdana;
+color: #0000aa;
+}
+
+
+
+
+A.menu:link, A.menu:active, A.menu:visited {
+color: #0033FF;
+font: 12px verdana;
+margin: 1px;
+text-decoration: none;
+display: block;
+background: transparent;
+height: 12px;
+}
+
+A.menu:hover {
+color: green;
+font: 12px verdana;
+margin: 1px;
+text-decoration: none;
+display: block;
+background: #eeeeee;
+height: 12px;
+}
+
+
+.outer_tbl {
+width: 70%;
+height: 200px;
+border: 0px;
+font: 12px verdana;
+}
+
+.outer_tbl {
+width: 70%;
+height: 100px;
+border: 0px;
+font: 12px verdana;
+}
+
+.top_cell_left {
+width: 16%;
+height: 100px;
+}
+
+.top_cell_right {
+width: 84%;
+height: 100px;
+}
+
+
+.menu_outer_cell {
+width: 16%;
+height: 200px;
+}
+
+.main_outer_cell {
+width: 84%;
+height: 200px;
+padding: 5px 5px 5px 6px;
+border-left: 1px solid black;
+border-right: 1px solid black;
+}
+
+.menu_inner_tbl {
+height: 250px;
+width: 100%;
+text-align: center;
+}
+
+.i_menu_top {
+width:100%;
+height: 15px;
+font: 12px verdana;
+font-weight: bold;
+background: green;
+color: white;
+}
+
+.menu_spacer {
+height: 10px;
+width: 100%;
+}
+
+.i_menu_main {
+width: 100%;
+height: 200px;
+font: 12px verdana;
+text-align: center;
+
+}
+
+.about_tbl {
+width: 100%;
+height: 100px;
+font: 12px verdana;
+}
+
+.small_font {
+font: 11px verdana;
+}
+
+A:a_small {
+font: 11px verdana;
+}
+
+.books_table {
+width: 70%;
+height: 100px;
+text-align: left;
+}
